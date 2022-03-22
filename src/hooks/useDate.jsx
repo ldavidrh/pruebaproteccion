@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 
 const useDate = () => {
-  const locale = "es";
   const [actualTime, setActualTime] = useState(new Date());
 
   useEffect(() => {

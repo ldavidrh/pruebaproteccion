@@ -19,10 +19,7 @@ function App() {
       fibSequence.push(fibSequence[i] + fibSequence[i + 1]);
     }
 
-    setMsg(
-      `La secuencia para la semilla ${seed} y ${count} iteraciones es:`,
-      fibSequence
-    );
+    setMsg(`La secuencia para la semilla ${seed} y ${count} iteraciones es:`);
 
     setSequence(fibSequence);
   };
