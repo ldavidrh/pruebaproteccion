@@ -10,7 +10,7 @@ function App() {
     let fibSequence = [];
     let seed =
       now.minutes >= 10
-        ? now.minutes.toString().split("").map(Number)
+        ? now.minutes.toString().split("").map(Number).sort()
         : [0, now.minutes];
     let count = now.seconds;
     fibSequence = [...seed];
